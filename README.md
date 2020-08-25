@@ -19,7 +19,7 @@ This app allows you get the picture of the destination you will travel to, and d
 - Production environment: `npm run build-prod`
 
 
-### important dependencies/modules
+### Important dependencies/modules
 package.json includes all development dependencies 
 
 - `npm install @babel/plugin-transform-runtime npm install --save`   (babel is used for transforming next generation javacript to browser-compatible javascript)
