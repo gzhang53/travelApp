@@ -1,0 +1,26 @@
+form {
+    display: block;
+    justify-content: center;
+    background-image: linear-gradient(#11a839,#11a839,#758ce0);
+    border: 1px solid #545454;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+input {
+    
+    padding: 5px 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 16px;
+    margin: 10px 0;
+    background-color:white;
+}
+
+
+
+input:hover {
+    color: white;
+   background-color:#758ce0;
+   
+}
