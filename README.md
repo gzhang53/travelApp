@@ -5,6 +5,7 @@ This app allows you get the picture of the destination you will travel to, and d
 User input:  1. Travel destination 2. Departing date 3. Returning date <br>
 App returns: 1. City, country name 2. how many days until the trip 3. how long is the trip 4. temperature in destination on the travel date 
 
+
 ### Built With
 `Geoname API`, `WeatherBit API`, `Pixabay API`,
 - Node.js
