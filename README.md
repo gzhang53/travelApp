@@ -5,21 +5,19 @@ This app utlizes 3 APIs to get user's destination city basic information 1. weat
 This app allows you get the picture of the destination you will travel to, and destination temperature on the date you travel.
 
 ### Built With
-WeatherBit API, Pixabay API, ExchangeRates API, and RestCountries API
+`Geoname API`, `WeatherBit API`, `Pixabay API`,
 - Node.js
 - Jest.js
 - Express.js
 - Webpack
 - HTML, CSS, JS
-- Deployment
 
 ### How to use this app.
 
 - Development environment:`npm run build `
 - Start the server: `npm run start`
 - Production environment: `npm run build-prod`
-- Test this app: `npm run test`
-Open http://localhost:8080/ on your web browser.
+
 
 ### important dependencies/modules
 package.json includes all development dependencies 
@@ -32,4 +30,4 @@ package.json includes all development dependencies
 
 ### Testing
 
-Run npm run test to test.
+`npm run test`
