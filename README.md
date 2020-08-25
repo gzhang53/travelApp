@@ -1,7 +1,5 @@
 # Travel Planning App
 
-This app utlizes 3 APIs to get user's destination city basic information 1. weather 2. a pic of the destination city 3. geo information (latitude, longtitude,country)
-
 This app allows you get the picture of the destination you will travel to, and destination temperature on the date you travel.
 
 ### Built With
@@ -14,7 +12,7 @@ This app allows you get the picture of the destination you will travel to, and d
 
 ### How to use this app.
 
-- Development environment:`npm run build `
+- Development environment:`npm run build-dev `
 - Start the server: `npm run start`
 - Production environment: `npm run build-prod`
 
