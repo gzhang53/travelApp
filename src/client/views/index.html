@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <i class="material-icons">flight</i>
+            <div class="">
+                Travel Planner
+            </div>
+        </header>
+
+        <main>
+            <section>
+               
+
+                <form>
+                    <label for="city">My trip to:</label>
+                    <input id="cityName" type="text" required="required"   placeholder="Your destination" >
+                    <label for="city">Depart on :</label>
+                    <input type = "date" id="travelDay"  >
+                    <label for="city">Return on:</label>
+                    <input type = "date" id="backDay">
+                    <button id ="submit" type="submit" name="" > Let's find out more about your upcoming trip </button>
+                </form>
+            <section>
+
+            <section>
+                <i class="material-icons">favorite</i>
+                <strong>A glance at your destination:</strong>
+                <div class="image-container">
+                    <img id="img" src="">
+                </div>
+            </section>
+            <section>
+                <i class="material-icons">cloud</i>
+                <strong id='weatherInfo'>Weather Forcast:</strong>
+                <div class="weatherForcast" id='weather'>
+                
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+        <script>
+
+        
+        // if ('serviceWorker' in navigator) {
+        //     //Use the window load event to keep the page load performant
+        //      window.addEventListener('load', () => {
+        //          navigator.serviceWorker.register('/service-worker.js');
+        //     });
+        // }
+        
+        </script>
+    </body>
+</html>
